@@ -27,6 +27,7 @@ fisher install anthodev/jj.fish
 | `jjrbd <arg>` | `jj rebase -s <arg> -d develop` | Rebase from source onto develop (required arg) |
 | `jja <arg>` | `jj abandon <arg>` | Abandon a change (required arg) |
 | `jjh` | `jj edit 'heads(@::)'` | Edit head of working copy |
+| `jjgf` | `jj git fetch` | Git fetch |
 | `jjgp` | `jj git push` | Git push |
 | `jjba` | `jj bookmark advance` | Advance bookmark |
 | `jjbc <arg>` | `jj bookmark create <arg>` | Create bookmark (required arg) |
