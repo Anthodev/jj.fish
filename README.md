@@ -26,6 +26,7 @@ fisher install anthodev/jj.fish
 | `jjr` | `jj resolve` | Resolve conflicts |
 | `jja <arg>` | `jj abandon <arg>` | Abandon a change |
 | `jjh` | `jj edit 'heads(@::)'` | Edit head of working copy |
+| `jju` | `jj undo` | Undo last operation |
 
 ### Rebase
 
