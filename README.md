@@ -27,6 +27,7 @@ fisher install anthodev/jj.fish
 | `jja <arg>` | `jj abandon <arg>` | Abandon a change |
 | `jjh` | `jj edit 'heads(@::)'` | Edit head of working copy |
 | `jju` | `jj undo` | Undo last operation |
+| `jjwcl` | `jj log -r 'mutable() ~ ancestors(develop@origin) ~ ancestors(remote_bookmarks())'` | View which commits can be cleaned up |
 | `jjcl` | `jj abandon 'mutable() ~ ancestors(develop@origin) ~ ancestors(remote_bookmarks())'` | Clean up abandoned branches and commits |
 
 ### Rebase
